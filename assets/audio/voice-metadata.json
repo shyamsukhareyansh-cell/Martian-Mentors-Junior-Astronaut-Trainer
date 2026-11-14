@@ -1,0 +1,37 @@
+{
+  "asset_type": "synthetic_character_dialogue",
+  "project": "SPACEQUEST: THE LAST TRANSMISSION",
+  "characters": {
+    "ECHO": {
+      "presentation": "masculine",
+      "direction": "lower-pitched, measured, precise, restrained synthetic delivery",
+      "engine_voice": "eSpeak en-us+m3",
+      "rate_wpm": 138,
+      "pitch_setting": 27
+    },
+    "ZYRA": {
+      "presentation": "feminine alien companion",
+      "direction": "expressive, playful, curious, slightly otherworldly; lifted resonant timbre with a subtle layered harmonic shimmer and short spatial reflections; conversational rather than assistant-like",
+      "engine_voice": "eSpeak en-us+f4 with original audio post-processing",
+      "rate_wpm": 176,
+      "pitch_setting": 62,
+      "sound_design": "subtle harmonic layer, chorus and short echo; intelligibility preserved"
+    }
+  },
+  "clip_count": 44,
+  "format": "MP3, 96 kbps",
+  "generation_method": "Offline eSpeak synthesis with original post-processing. ZYRA has a stylized alien sound design; these are synthetic performances, not human recordings or voice imitations.",
+  "network_required": false,
+  "disclosure": "Synthetic character voices generated offline. ZYRA audio has additional original alien timbre processing. No actor or copyrighted character voice is cloned.",
+  "index": "voice-index.json",
+  "license_reference": "eSpeak project licensing and attribution should be reviewed by the team before redistribution: https://github.com/espeak-ng/espeak-ng",
+  "playback_priority": "Bundled character MP3 recordings are played first. Browser speech synthesis is only a fallback for dialogue without a bundled clip.",
+  "playback_behavior": "ECHO and ZYRA opening dialogue plays automatically in sequence; manual character Play/Replay buttons are removed.",
+  "earth_intro_music": {
+    "file": "earth-intro-ambience.mp3",
+    "type": "original cinematic ambient instrumental",
+    "duration_seconds": 54,
+    "behavior": "Starts automatically on Start Mission at audible volume; if the browser blocks playback, an ENABLE SOUND control appears. Stops when the cinematic ends or is skipped."
+  },
+  "voice_quality_note": "Current dialogue assets remain synthetic eSpeak performances. A genuinely natural, non-robotic voice requires new licensed human performances or a suitable neural TTS provider; pitch adjustment alone cannot achieve this."
+}
