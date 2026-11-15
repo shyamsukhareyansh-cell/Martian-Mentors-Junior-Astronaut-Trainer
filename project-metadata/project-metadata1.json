@@ -1,0 +1,79 @@
+{
+  "project_name": "SPACEQUEST: THE LAST TRANSMISSION",
+  "team": "MARTIAN MENTORS",
+  "event": "NASA Space Apps Challenge 2026",
+  "selected_challenge": "Build a Junior Astronaut Mission Trainer",
+  "project_type": "Browser-playable educational mystery game and simplified Mars outpost mission trainer",
+  "ai_and_automation_disclosure": {
+    "used": true,
+    "details": "OpenAI ChatGPT (GPT-6) assisted with code generation, code edits, narrative scaffolding, documentation and static review. Character artwork is included in assets/images and its original source/licence should be verified and credited by the team. Browser-native speech synthesis is preferred for character dialogue; bundled eSpeak clips are fallback. No human voice recordings or voice clones are used. Build 1.0.16 also uses a hosted HeyGen public voice (Wade — Resonant & Narrative) for the opening narration; the narration text is unchanged. The hosted audio URL requires internet access. ECHO and ZYRA dialogue remains browser-native speech synthesis.",
+    "where_disclosed": [
+      "docs/ai-use.md",
+      "assets/audio/voice-metadata.json",
+      "README.md"
+    ]
+  },
+  "media": {
+    "opening": "Original browser-based CSS/HTML sequence with upgraded cinematic framing, staged camera movement, evacuation fleet emphasis, impact flashes and deep-space reveal; the opening story and captions are retained. Dedicated hosted Wade narrator MP3; bundled original intro ambience music.",
+    "character_audio": "Opening narrator: hosted HeyGen public voice Wade — Resonant & Narrative. ECHO and ZYRA: browser-native speech synthesis; naturalness varies by browser and installed voices. No cloned voices.",
+    "generated_or_third_party_images": "assets/images/zyra-character.png and echo-hologram.jpg are the established character artwork supplied with the project; verify and credit the original source/licence before submission. Room environments remain CSS/SVG authored."
+  },
+  "science_and_data_status": {
+    "uses_challenge_resource_dataset": true,
+    "note": "RadLab is listed in the user's supplied selected-challenge Resources list. Runtime API retrieval must still be tested in the deployed browser environment; no ISS measurement is represented as a Mars measurement.",
+    "game_units": "EU, WU, FU and Shield Coverage Index are fictional normalized game units, not NASA engineering specifications or radiation doses.",
+    "dataset_integration": "NASA OSDR RadLab API: ISS DosTel historical sample query; timestamp and absorbed_dose_rate fields; values displayed dynamically if endpoint responds. Clearly distinguished from Mars surface radiation."
+  },
+  "license": "MIT",
+  "independent_project_not_endorsed_by_nasa": true,
+  "version": "1.0.16",
+  "changes_1_0_1": [
+    "Expanded Earth memory sequence into a multi-stage cinematic catastrophe and evacuation scene",
+    "Reprocessed all ZYRA dialogue clips with an original alien vocal sound design",
+    "Updated voice metadata and AI-use disclosure"
+  ],
+  "changes_1_0_2": [
+    "Merged the separate Build 1.0.2 room-hatch HTML patch into the complete Build 1.0.1 project and retained its bundled assets and documentation",
+    "Replaced overlapping hatch placement with distinct bottom-row flex controls and explicit open/sealed labels",
+    "Sealed hatch clicks provide progressive clue hints",
+    "Previously unlocked rooms remain accessible on revisits, with unlock state preserved by local save data",
+    "Added the ZYRA voice preview as an optional reference asset; in-game dialogue continues to use the bundled 44 synthetic voice clips"
+  ],
+  "verification": {
+    "static_checks": "passed: 11 rooms, 25 riddles, 15 equations, progression locks, character speech, dedicated opening narrator, cinematic effects, JavaScript syntax and CSS syntax",
+    "navigation_smoke_test": "passed: all operational room paths reachable; archive and annex remain clue-gated",
+    "browser_gameplay": "not_verified: full manual playthrough and hosted narrator playback on target browsers must still be checked",
+    "manual_playthrough_required": true
+  },
+  "release_note": "Cinematic presentation upgrade to the existing opening; preserves its story, captions, order, gameplay, rooms and puzzles.",
+  "changes_1_0_4": [
+    "Reworked the Central Hub into a navigable room environment with seven visible sector portals",
+    "Made operational sectors directly accessible from the Central Hub while preserving clue-gated Restricted Crew Archive and Subsurface Annex",
+    "Introduced an expanded immersive scene presentation with room titleplates, larger inspectable objects and a dedicated Power Station environment",
+    "Added a direct Central Hub return portal to individual room scenes and responsive layouts for smaller screens"
+  ],
+  "release_name": "NASA RadLab radiation reference integration",
+  "changes_1_0_8": [
+    "Added a post-dust-storm learning debrief that explains the environmental cause, resource trade-offs, and the player's allocation in child-friendly language.",
+    "Added a mission-planner reflection prompt to make learning visible without turning the adventure into a quiz.",
+    "Preserved explicit disclosure that EU, WU and FU are fictional game units, not NASA engineering specifications.",
+    "Added judge-facing submission, playtest, demo and asset-audit documents."
+  ],
+  "changes_1_0_9": [
+    "Added an optional live NASA OSDR RadLab API sample in the Radiation Shelter, using the documented ISS/DosTel historical sample window and absorbed_dose_rate field.",
+    "Clearly labels ISS low-Earth-orbit measurements as reference telemetry, not Mars surface dose or a Mars exposure prediction.",
+    "Added the Canadian Space Agency space food production toolkit as a contextual learning resource in the Greenhouse.",
+    "Live API retrieval is optional and degrades gracefully if network access, browser CORS, or the endpoint is unavailable."
+  ],
+  "changes_1_0_12": [
+    "Applied a child-friendly language pass to all 25 optional space riddles for ages 7–12, replacing technical terms with familiar words while keeping key science concepts accurate.",
+    "Updated accepted riddle answers to simple terms such as solar panel, oxygen tank, water recycler, current meter, supply list and message.",
+    "Included the separate Botanical Dome root-growth and controller-command riddles from the 1.0.11 correction.",
+    "Preserved the 1.0.10 character-audio playback repair, NASA RadLab historical ISS sample integration, all rooms, puzzles and supporting documentation."
+  ],
+  "changes_1_0_16": [
+    "Preserved the existing opening story beats, captions and order while adding letterbox framing, vignette, subtle scanlines, camera push-ins, warning shake, impact flashes and a dramatic deep-space reveal.",
+    "Replaced browser-generated opening narration with a dedicated hosted Wade — Resonant & Narrative MP3 using the existing narration text verbatim.",
+    "Kept the bundled original intro music and skip-memory control; outpost gameplay, rooms, puzzles and progression were not changed."
+  ]
+}
