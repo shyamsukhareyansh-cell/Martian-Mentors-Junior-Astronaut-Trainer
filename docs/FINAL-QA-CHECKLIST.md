@@ -1,4 +1,4 @@
-# Final QA checklist
+# Final QA checklist — build 1.0.17
 - [ ] Open `index.html` on target Windows Chrome using the team's intended hosting method.
 - [ ] Start a fresh mission; verify Earth intro and soundtrack, including browser sound permission behaviour.
 - [ ] Inspect all ASTRAL-9 systems and enter Mars visibly.
@@ -15,6 +15,7 @@
 - [ ] Test mobile/smaller viewport if the project claims responsive support.
 - [ ] Open the public demo link in a private/incognito window on a separate device.
 - [ ] Complete NASA challenge resource record and cite the exact dataset.
-- [ ] Complete AI disclosure and asset/licence register.
+- [ ] Ensure the AI disclosure matches the selected submission categories: coding/debugging/troubleshooting, ideation/brainstorming, and writing/editing/translation.
+- [ ] Complete the asset/licence register.
 - [ ] Ask Local Lead/GO Team about prototype work predating the official hackathon start.
 - [ ] Verify all submission fields and deadlines in the official portal.

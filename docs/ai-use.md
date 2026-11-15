@@ -1,64 +1,28 @@
-# AI Use, Development and Synthetic Media Disclosure
+# AI Use Disclosure — SPACEQUEST: The Last Transmission
 
-## 1. AI Assistance During Development
+**Team:** MARTIAN MENTORS  
+**Project build:** 1.0.17
 
-AI tools were used as development assistants during the creation of SPACEQUEST: THE LAST TRANSMISSION.
+Our team used AI tools during the development of SPACEQUEST in the following ways:
 
-## Their assistance included:
+## 1. Coding, debugging and troubleshooting
+AI tools assisted us with parts of the coding process, understanding and resolving technical problems, debugging, and improving elements of the game. We used this assistance while developing and refining the browser-based experience. The team reviewed changes, made implementation decisions, tested the game and worked through issues during development.
 
-- Debugging, troubleshooting and improving existing functionality.
-- Assisting with code comments and technical documentation.
-- Supporting the refinement of narrative elements, dialogue and visual design.
+## 2. Ideation and brainstorming
+We used AI tools to explore and discuss possible approaches during development. The project concept, intended audience, story direction, room-based exploration, characters, missions and features were shaped and selected by MARTIAN MENTORS. AI suggestions were considered as input; the team decided what to use, change or leave out.
 
-AI-generated suggestions and code were reviewed, tested and refined by the team.
+## 3. Writing, editing and translation
+AI tools assisted with drafting, editing and improving some project text, including narrative/dialogue wording, explanations, documentation and presentation material. The team reviewed and adapted this material to fit the game, its intended audience and the project's goals.
 
-## 2. Team Contributions
+## Team contribution and responsibility
+MARTIAN MENTORS led the project direction and made the final decisions about the experience, its story, gameplay, educational focus and features. Team members worked on learning the tools, integrating and revising the project, testing the experience and deciding what needed improvement. AI assistance was part of our development process; it should not be represented as though every part of the project was produced independently without AI support.
 
-Team MARTIAN MENTORS was responsible for the project's creative direction, design decisions, development workflow and final implementation.
+## Procedural media and synthetic voices
+The Earth-to-ASTRAL-9 opening is a procedural in-browser animation rather than a pre-rendered film. ECHO and ZYRA use synthetic speech, not human voice recordings or voice clones. The game documentation describes browser/device speech synthesis and bundled eSpeak fallback clips; playback may vary by device and installed voices.
 
-## The team's contributions included:
+The origin and licence of character artwork, fonts and any third-party assets must be checked against the actual files and recorded in `ASSET-AND-CREDIT-REGISTER.md`. Do not claim an asset is team-created or freely licensed unless that has been verified.
 
-- Developing the original project concept and selecting the NASA Junior Astronaut Mission Trainer challenge.
-- Designing the storyline, mission structure and target audience.
-- Planning the room-based exploration experience and interconnected puzzle progression.
-- Defining the characters ECHO and ZYRA and their roles in the game.
-- Selecting and refining gameplay features and educational activities.
-- Integrating and reviewing game functionality.
-- Identifying bugs, testing interactions and requesting corrections.
-- Conducting repeated browser playthroughs and playtesting with two children.
-- Reviewing and refining the final experience.
+## Science and data
+AI assistance does not make a scientific statement or dataset authoritative. The team must verify scientific claims against the cited source material. Fictional gameplay quantities such as EU, WU, FU and the Shield Coverage Index must remain clearly distinguished from real measurements or engineering specifications. The RadLab activity uses historical ISS observations, not Mars-surface measurements.
 
-The team retained responsibility for reviewing, testing and approving the final project.
-
-## 3. Procedural Animation and Synthetic Audio
-
-The Earth-to-ASTRAL-9 opening is a procedural in-browser animation rather than a pre-rendered video.
-
-ECHO and ZYRA use synthetic speech rather than human voice recordings or cloned voices.
-
-Their voices use different pitch, pacing and speech settings to establish distinct character personalities.
-
-The game uses browser-based speech synthesis as its preferred voice source, with bundled synthetic audio clips as a fallback where applicable. Voice output may vary depending on the browser, operating system and installed voices.
-
-## 4. Scientific Sources and Data
-
-The Data and the Information used in the game is acquired from NASA’s official site
-
-## Scientific concepts and data references used in the project are documented in:
-
-- `NASA-DATA-INTEGRATION-RECORD.md`
-- `science-notes.md`
-
-The project distinguishes between simplified gameplay quantities, NASA-based scientific concepts and real-world measurements supported by cited sources.
-
-Historical International Space Station radiation measurements are identified as low-Earth-orbit data and are not presented as Mars-surface measurements.
-
-## 5. Acknowledgement and Responsibility
-
-AI tools supported the team's development process through code assistance, debugging, refinement and documentation.
-
-However, the project direction, creative decisions, gameplay planning, testing and final review were led by MARTIAN MENTORS.
-
-The team acknowledges the use of AI-assisted development and synthetic media and accepts responsibility for the final submitted project.
-
-SPACEQUEST: THE LAST TRANSMISSION is an independent student-developed project. It is not an official NASA product, and NASA does not endorse it.
+SPACEQUEST is an independent student project and is not an official NASA product or endorsed by NASA.

@@ -1,4 +1,4 @@
-# NASA data integration record — SPACEQUEST 1.0.9
+# NASA data integration record — SPACEQUEST 1.0.17
 
 **Challenge resource used:** RadLab (OSDR Radiation Dosimetry Database), supplied in the selected Junior Astronaut Mission Trainer challenge's Resources list.
 
