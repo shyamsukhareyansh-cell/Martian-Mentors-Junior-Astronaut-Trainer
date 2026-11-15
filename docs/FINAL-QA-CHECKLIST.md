@@ -1,0 +1,20 @@
+# Final QA checklist
+- [ ] Open `index.html` on target Windows Chrome using the team's intended hosting method.
+- [ ] Start a fresh mission; verify Earth intro and soundtrack, including browser sound permission behaviour.
+- [ ] Inspect all ASTRAL-9 systems and enter Mars visibly.
+- [ ] Visit every operational room; verify each room's hatch and object interactions.
+- [ ] Complete the OV-17 → water → BX-09 → shelter timeline → rover route → archive → annex clue chain.
+- [ ] Verify Archive and Annex remain gated until their conditions are met.
+- [ ] Complete the P = V × I puzzle and verify the explanation labels the sample values as fictional.
+- [ ] Run a dust-storm allocation above the limit; verify rejection.
+- [ ] Run a valid allocation; verify resources update and the new learning debrief appears.
+- [ ] Confirm the debrief uses plain language and clearly labels game units as fictional.
+- [ ] Verify 25 riddles and 15 equation challenges and saved progress.
+- [ ] Reload; verify save/continue. Reset; verify state clears.
+- [ ] Test audio on/off, ECHO/ZYRA differences and subtitles.
+- [ ] Test mobile/smaller viewport if the project claims responsive support.
+- [ ] Open the public demo link in a private/incognito window on a separate device.
+- [ ] Complete NASA challenge resource record and cite the exact dataset.
+- [ ] Complete AI disclosure and asset/licence register.
+- [ ] Ask Local Lead/GO Team about prototype work predating the official hackathon start.
+- [ ] Verify all submission fields and deadlines in the official portal.
